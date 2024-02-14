@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo-header.png" alt="header">
+        <a href="">Home</a>
+        <a href="">Nossos Serviços</a>
+        <a href="">Fale Conosco</a>
+    </div>
+
+
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="logo.png" alt="logo mario" class="logo-mario">
+            <p>Mario e luigi são os melhores encanaodres, e vivem se metendo em confusão</p>
+            <p>Está precisando de um orçgrewgfg eedtr vrewef gegfewkgf amento com os irmãos atrapalhados? e agora, oque
+                iremos fazer depois , o papo serio agora entre em contato com eles agora:</p>
+
+
+            <button onclick="mostrarForm()">Entre em contato</button>
+
+        </div>
+        <div>
+            <img src="mario.png" alt="imagem mario e luigi" class="imagem-mario-luigi">
+        </div>
+    </div>
+
+    <div class="caixa-video">
+        <video src="video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="" class="link-whatsapp">
+        <img src="whatsapp.png" alt="Link para o whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco"
+          action="https://formcarry.com/s/TqcJZ8MxnWS"
+          method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="SEU NOME" type="text" name="nome">
+            <input placeholder="SEU TELEFONE" type="tel" name="telefone">
+            <textarea placeholder="COLOQUE SEU ENDEREÇO" name="Endereço"></textarea>
+           <textarea placeholder="QUAL É SEU PEDIDO" name="Seu pedido" class="text-pedido"></textarea>
+            <button type="submit">Fazer Pedido</button>
+        </form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

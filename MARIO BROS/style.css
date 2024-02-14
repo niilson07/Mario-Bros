@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-mario {
+    height: 200px;
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+.imagem-mario-luigi {
+    height: 500px;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+p {
+    color: white;
+    padding: 10px;
+}
+
+.caixa-principal {
+    width: 50%;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-whatsapp img {
+    height: 70px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: 0.5s;
+}
+
+.link-whatsapp img:hover {
+    transform: translateY(-15px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.header img {
+    height: 60px;
+
+}
+
+.header a {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: red;
+    font-size: 25px;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    transition: 0.3s ease-in-out;
+    font-size: 22px;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+input {
+    height: 48px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+textarea {
+    width: 270px;
+    height: 90px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80F;
+}
+
+.text-pedido {
+    width: 270px;
+    height: 100px;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    transition: visibility 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+@media(max-width: 1100px) {
+
+p {
+    display: none;
+}
+
+}
